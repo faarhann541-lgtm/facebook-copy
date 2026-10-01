@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook clone</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/0518426069.js" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <div class="menu-icon">
+    <i class="fa-solid fa-bars" id="menuButton" onclick="openMenu()"></i>
+</div>
+<h1>facebook</h1>
+        </div>
+        <div class="right">
+<div class="dropdown">
+    <i class="fa-regular fa-square-plus fs-5" data-bs-toggle="dropdown" aria-expanded="false"></i>
+<ul class="dropdown-menu dropdown-menu-end">
+    <li><a class="dropdown-item" href=""><i class="fa-regular fa-pen-to-square"></i>Post</a></li>
+<li><a class="dropdown-item" href=""><i class="fa-brands fa-codepen"></i>Story</a></li>
+<li><a class="dropdown-item" href=""><i class="fa-solid fa-clapperboard"></i>Reel</a></li>
+<li><a class="dropdown-item" href=""><i class="fa-solid fa-video"></i>Live</a></li>
+<li><a class="dropdown-item" href=""><i class="fa-solid fa-barcode"></i>Note</a></li>
+<li><a class="dropdown-item" href=""><i class="fa-regular fa-cloud"></i>AI</a></li>
+
+</ul>
+    </div>
+<i class="fa-solid fa-magnifying-glass"></i>
+<i class="fa-brands fa-facebook-messenger"></i>
+        </div>
+    </nav>
+    <div class="post-box d-flex align-items-center">
+<img src="Snapchat-386538613.jpg" alt="" class="profile-img">
+<input type="text" class="form-control mx-2" placeholder="What's on your mind?">
+<i class="fa-regular fa-image"></i>
+    </div>
+<div class="Stories">
+    <div class="story create-story">
+        <img src="Snapchat-386538613.jpg" alt="">
+        <button><i class="fa-solid fa-plus"></i></button>
+        <h5>Create Story</h5>
+    </div>
+    <div class="story">
+    <img src="jj.jfif" alt="">
+        <div class="story-profile">
+            <img src="jj.jfif" alt="">
+        </div>
+        <h5>Talha Rajput</h5>
+    </div>
+    <div class="story">
+        <img src="ff.avif" alt="">
+        <div class="story-profile">
+            <img src="ff.avif" alt="">
+        </div>
+        <h5>Ali Khan</h5>
+    </div>
+    <div class="story">
+        <img src="hh.jfif" alt="">
+        <div class="story-profile">
+            <img src="hh.jfif" alt="">
+        </div>
+        <h5>Badshah</h5>
+    </div>
+    <div class="story">
+        <img src="ss.avif" alt="">
+        <div class="story-profile">
+            <img src="ss.avif" alt="">
+        </div>
+        <h5>Ahmed jutt</h5>
+    </div>
+    <div class="story">
+        <img src="dd.jfif" alt="">
+        <div class="story-profile">
+            <img src="dd.jfif" alt="">
+        </div>
+        <h5>Adnan</h5>
+    </div>
+    <div class="story">
+        <img src="rr.jpg" alt="">
+        <div class="story-profile">
+            <img src="rr.jpg" alt="">
+        </div>
+        <h5>Farhan</h5>
+    </div>
+    
+</div>
+<div class="post-header d-flex align-items-center justify-content-between p-2">
+    <div class="d-flex align-items-center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp-WIiR6_XIq5VLowuK9cCyYxwUy1klGNncE9Ub_vqUQ&s=10" class="post-profile" alt="">
+
+        <div class="profile-info">
+            <h5>Ahmad Abdullah</h5>
+
+            <div class="post-time">
+                <span>26 Aug. <i class="fa-solid fa-user-group"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <i class="fa-solid fa-ellipsis"></i>
+</div>
+<div class="post-content p-2">
+    
+    <p>A warm welcome to Prop.Ahmad Abdullah.He is joining a our Physics Department.He is a brilliant teacher of Faisalabad.He is styding from London in subject of Physics and PHD in Physics <span class="post-emoji">❤️</span></p>
+
+</div>
+<div class="Post-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQugKRlvQSi7ldjMJ3n2_o_xHB0hebEvLCLDffUYtMuhw6gagNLX9tip4E&s=10" alt="">
+</div>
+<div class="post-stats">
+    <div class="likes">
+        <i class="fa-solid fa-thumbs-up"></i>
+        <span>2.3K</span>
+        <img src="gg.jpg" alt="">
+        <img src="ff.avif" alt="">
+        <img src="rr.jpg" alt="">
+    </div>
+
+    <div class="comments">
+        <span>245 comments</span>
+        <span>18 shares</span>
+    </div>
+</div>
+
+<div class="post-actions">
+    <button class="like-btn">
+        <i class="fa-solid fa-thumbs-up"></i>
+        Like
+    </button>
+
+    <button>
+        <i class="fa-regular fa-comment"></i>
+        Comment
+    </button>
+
+    <button>
+        <i class="fa-solid fa-share"></i>
+        Share
+    </button>
+</div>
+<div class="comment-box">
+    <img src="Snapchat-386538613.jpg" alt="">
+    <div class="comment-input">
+        <input type="text" placeholder="Write a Comment...">
+ <i class="fa-regular fa-face-smile"></i>        
+
+    </div>
+</div>
+<div class="people-section">
+
+    <div class="people-header">
+        <h3>People You May Know</h3>
+
+        <div class="people-icons">
+            <i class="fa-solid fa-ellipsis"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+    </div>
+
+    <div class="people-list">
+
+        <div class="person">
+            <img src="jj.jfif" alt="Talha">
+
+            <div class="person-info">
+                <h4>Talha Rajput</h4>
+                <p>From Faisalabad</p>
+
+                <div class="friend-buttons">
+                    <button class="add-friend">
+                        Add Friend
+                    </button>
+
+                    <button class="remove-friend">
+                        Remove
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="ff.avif" alt="Ali">
+
+            <div class="person-info">
+                <h4>Ali Khan</h4>
+                <p>From Lahore</p>
+
+                <div class="friend-buttons">
+                    <button class="add-friend">
+                        Add Friend
+                    </button>
+
+                    <button class="remove-friend">
+                        Remove
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="person">
+            <img src="hh.jfif" alt="Badshah">
+
+            <div class="person-info">
+                <h4>Badshah</h4>
+                <p>From Islamabad</p>
+
+                <div class="friend-buttons">
+                    <button class="add-friend">
+                        Add Friend
+                    </button>
+
+                    <button class="remove-friend">
+                        Remove
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<nav class="bottom-navbar">
+
+    <div class="bottom-item active">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+    </div>
+
+    <div class="bottom-item">
+        <i class="fa-solid fa-tv"></i>
+        <span>Video</span>
+    </div>
+
+    <div class="bottom-item">
+        <i class="fa-solid fa-user"></i>
+        <span>User</span>
+    </div>
+
+    <div class="bottom-item">
+        <i class="fa-solid fa-store"></i>
+        <span>Sale</span>
+    </div>
+
+    <div class="bottom-item">
+        <i class="fa-solid fa-bell"></i>
+        <span>Notifications</span>
+    </div>
+
+    <div class="bottom-item profile-nav">
+        <img src="Snapchat-386538613.jpg" alt="Profile">
+    </div>
+
+</nav>
+<!-- OFFCANVAS MENU -->
+<div class="side-menu" id="sideMenu">
+
+    <div class="side-menu-header">
+        <h2>facebook</h2>
+
+        <button id="closeMenu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+
+    <div class="side-menu-body">
+
+        <a href="#" class="side-menu-item">
+            <i class="fa-solid fa-house"></i>
+            <span>Home</span>
+        </a>
+
+        <a href="#" class="side-menu-item">
+            <i class="fa-solid fa-user"></i>
+            <span>Profile</span>
+        </a>
+
+        <a href="#" class="side-menu-item">
+            <i class="fa-solid fa-gear"></i>
+            <span>Settings</span>
+        </a>
+
+        <a href="#" class="side-menu-item">
+            <i class="fa-solid fa-bell"></i>
+            <span>Notifications</span>
+        </a>
+
+        <a href="#" class="side-menu-item">
+            <i class="fa-solid fa-users"></i>
+            <span>Friends</span>
+        </a>
+
+        <hr>
+
+        <a href="#" class="side-menu-item logout">
+            <i class="fa-solid fa-right-from-bracket"></i>
+            <span>Logout</span>
+        </a>
+
+    </div>
+</div>
+<div class="extra-posts">
+
+    <div class="extra-post">
+        <div class="post-header d-flex align-items-center justify-content-between p-2">
+            <div class="d-flex align-items-center">
+                <img src="jj.jfif" class="post-profile" alt="">
+                <div class="profile-info">
+                    <h5>Talha Rajput</h5>
+                    <div class="post-time">
+                        <span>24 Aug. <i class="fa-solid fa-user-group"></i></span>
+                    </div>
+                </div>
+            </div>
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+
+        <div class="post-content p-2">
+            <p>Beautiful day with beautiful memories ❤️</p>
+        </div>
+
+        <div class="Post-image">
+            <img src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=800&q=80" alt="">
+        </div>
+
+        <div class="post-stats">
+            <div class="likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>1.2K</span>
+            </div>
+            <div class="comments">
+                <span>86 comments</span>
+                <span>12 shares</span>
+            </div>
+        </div>
+
+        <div class="post-actions">
+            <button class="like-btn">
+                <i class="fa-solid fa-thumbs-up"></i> Like
+            </button>
+            <button>
+                <i class="fa-regular fa-comment"></i> Comment
+            </button>
+            <button>
+                <i class="fa-solid fa-share"></i> Share
+            </button>
+        </div>
+    </div>
+
+    
+    <div class="extra-post">
+        <div class="post-header d-flex align-items-center justify-content-between p-2">
+            <div class="d-flex align-items-center">
+                <img src="ff.avif" class="post-profile" alt="">
+                <div class="profile-info">
+                    <h5>Ali Khan</h5>
+                    <div class="post-time">
+                        <span>21 Aug. <i class="fa-solid fa-user-group"></i></span>
+                    </div>
+                </div>
+            </div>
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+
+        <div class="post-content p-2">
+            <p>Enjoying the peaceful evening 🌅</p>
+        </div>
+
+        <div class="Post-image">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" alt="">
+        </div>
+
+        <div class="post-stats">
+            <div class="likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>856</span>
+            </div>
+            <div class="comments">
+                <span>54 comments</span>
+                <span>8 shares</span>
+            </div>
+        </div>
+
+        <div class="post-actions">
+            <button class="like-btn">
+                <i class="fa-solid fa-thumbs-up"></i> Like
+            </button>
+            <button>
+                <i class="fa-regular fa-comment"></i> Comment
+            </button>
+            <button>
+                <i class="fa-solid fa-share"></i> Share
+            </button>
+        </div>
+    </div>
+
+
+    <div class="extra-post">
+        <div class="post-header d-flex align-items-center justify-content-between p-2">
+            <div class="d-flex align-items-center">
+                <img src="hh.jfif" class="post-profile" alt="">
+                <div class="profile-info">
+                    <h5>Badshah</h5>
+                    <div class="post-time">
+                        <span>22 Aug. <i class="fa-solid fa-user-group"></i></span>
+                    </div>
+                </div>
+            </div>
+            <i class="fa-solid fa-ellipsis"></i>
+        </div>
+
+        <div class="post-content p-2">
+            <p>Life is better when you smile 😊</p>
+        </div>
+
+        <div class="Post-image">
+            <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=800&q=80" alt="">
+        </div>
+
+        <div class="post-stats">
+            <div class="likes">
+                <i class="fa-solid fa-thumbs-up"></i>
+                <span>2.1K</span>
+            </div>
+            <div class="comments">
+                <span>120 comments</span>
+                <span>21 shares</span>
+            </div>
+        </div>
+
+        <div class="post-actions">
+            <button class="like-btn">
+                <i class="fa-solid fa-thumbs-up"></i> Like
+            </button>
+            <button>
+                <i class="fa-regular fa-comment"></i> Comment
+            </button>
+            <button>
+                <i class="fa-solid fa-share"></i> Share
+            </button>
+        </div>
+    </div>
+
+</div>
+<script>
+function openMenu() {
+    document.getElementById("sideMenu").classList.add("show");
+    document.getElementById("menuOverlay").classList.add("show");
+}
+
+function closeMenuFunction() {
+    document.getElementById("sideMenu").classList.remove("show");
+    document.getElementById("menuOverlay").classList.remove("show");
+}
+
+document.getElementById("closeMenu").onclick = closeMenuFunction;
+document.getElementById("menuOverlay").onclick = closeMenuFunction;
+</script>
+</body>
+</html>
